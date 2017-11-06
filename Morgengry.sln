@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morgengry", "Morgengry\Morgengry.csproj", "{EDE6F514-C67F-449E-8C79-01E9B52B66D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{97DC7978-2744-4723-B112-DA683BEE9541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE6F514-C67F-449E-8C79-01E9B52B66D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE6F514-C67F-449E-8C79-01E9B52B66D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE6F514-C67F-449E-8C79-01E9B52B66D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE6F514-C67F-449E-8C79-01E9B52B66D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DC7978-2744-4723-B112-DA683BEE9541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DC7978-2744-4723-B112-DA683BEE9541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DC7978-2744-4723-B112-DA683BEE9541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DC7978-2744-4723-B112-DA683BEE9541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9A50FF3-8B05-4E68-8158-34249B60560B}
+	EndGlobalSection
+EndGlobal
