@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Morgengry
-{
+{ /*
     public class AmuletRepository
     {
         List<Amulet> AmuletList = new List<Amulet>();
@@ -62,6 +62,6 @@ namespace Morgengry
             }
             return result;
         }
-    }
+    } */
 }
 

@@ -6,64 +6,50 @@ using System.Threading.Tasks;
 
 namespace Morgengry
 {
-    class MerchandiseRepository
+ /*   class MerchandiseRepository
     {
-        public class AmuletRepository
+        List<Merchandise> merchandises = new List<Merchandise>();    
+
+        public void AddMerchandise(Merchandise merchandise)
         {
-            List<Amulet> AmuletList = new List<Amulet>();
-
-            public void AddAmulet(Amulet amulet)
-            {
-                AmuletList.Add(amulet);
-            }
-
-            public Amulet GetAmulet(string itemId)
-            {
-                Amulet result = null;
-                int i = 0;
-                bool findAmulet = true;
-                while (findAmulet)
-                {
-                    if (AmuletList[i].ItemId == itemId)
-                    {
-                        result = AmuletList[i];
-                        findAmulet = false;
-                    }
-                    if (AmuletList.Count <= i)
-                    {
-                        findAmulet = false;
-                    }
-                    i += 1;
-                }
-                return result;
-            }
-
-            public double GetTotalValue()
-            {
-                double result = 0;
-                foreach (Amulet AmuletPrice in AmuletList)
-                {
-                    switch (AmuletPrice.Quality)
-                    {
-                        case Level.low:
-                            result += 12.5;
-                            break;
-
-                        case Level.medium:
-                            result += 20.0;
-                            break;
-
-                        case Level.high:
-                            result += 27.5;
-                            break;
-
-                        default:
-                            break;
-
-                    }
-                }
-                return result;
-            }
+            merchandises.Add(merchandise);
         }
-    }
+
+        public Merchandise GetMerchandise(string itemId)
+        {
+            Merchandise result = null;
+            int i = 0;
+            bool findMerchandise = true;
+            while (findMerchandise)
+            {
+                if (merchandises[i].ItemId == itemId)
+                {
+                    result = merchandises[i];
+                    findMerchandise = false;
+                }
+                if (merchandises.Count <= i)
+                {
+                    findMerchandise = false;
+                }
+                i += 1;
+            }
+            return result;
+        }
+
+
+        public double GetTotalValue()
+        {
+            double totalValue = 0;
+            foreach (Merchandise Merchandise in merchandises)
+            {
+                totalValue = totalValue + ValuableRepository.GetValueOfMerchandise(Merchandise);
+
+            }
+            return totalValue;
+        }
+
+            List<book> bookList = new List<book>();
+        
+    } */
+
 }

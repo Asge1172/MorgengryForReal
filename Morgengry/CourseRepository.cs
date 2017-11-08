@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Morgengry
-{
+{ /*
     public class CourseRepository
     {
         List<Course> CourseList = new List<Course>();
@@ -46,6 +46,6 @@ namespace Morgengry
             }
             return result;
         }
-    }
+    } */
 }
 

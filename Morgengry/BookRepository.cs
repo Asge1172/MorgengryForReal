@@ -5,19 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Morgengry
-{
+{ /*
     public class BookRepository
     {
-        List<Book> bookList = new List<Book>();
+        List<book> bookList = new List<book>();
 
-        public void AddBook(Book book)
+        public void AddBook(book book)
         {
             bookList.Add(book);
         }
 
-        public Book GetBook(string itemId)
+        public book GetBook(string itemId)
         {
-            Book result = null;
+            book result = null;
             int i = 0;
             bool findBook = true;
             while(findBook)
@@ -39,11 +39,11 @@ namespace Morgengry
         public double GetTotalValue()
         {
             double result = 0;
-            foreach (Book bookPrice in bookList)
+            foreach (book bookPrice in bookList)
             {
                 result += bookPrice.Price;
             }
             return result;
         }
-    }
+    } */
 }

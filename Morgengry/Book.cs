@@ -7,32 +7,29 @@ using System.Threading.Tasks;
 
 namespace Morgengry
 {
-    public class Book
-    {
-        
-        public string ItemId { get; set; }
-        
+    public class book : Merchandise
+    {        
         public string Title { get; set; }
         
         public double Price { get; set; }
 
 
-        public Book(string _itemId, string _title, double _price)
+        public book(string _itemId, string _title, double _price)
         {
             ItemId = _itemId;
             Title = _title;
             Price = _price;
         }
-        public Book(string _itemId, string _title):
+        public book(string _itemId, string _title):
             this(_itemId, _title, 0)
         {
         }
-        public Book(string _itemId):
+        public book(string _itemId):
             this(_itemId, string.Empty, 0)
         {
         }
 
-        public Book():
+        public book():
             this(string.Empty, string.Empty, 0)
         {
 
@@ -44,5 +41,10 @@ namespace Morgengry
             dotToComma.NumberDecimalSeparator = ",";
             return "ItemId: " + ItemId + ", Title: " + Title + ", Price: " + Price.ToString(dotToComma);
         }
+        public override double GetValue()
+        {
+            return Price;
+        }
+
     }
 }
